@@ -1,0 +1,13 @@
+{
+  "name": "friends-we-make-along-the-way",
+  "version": "1.0.0",
+  "description": "Friends We Make Along the Way",
+  "main": "index.js",
+  "repository": "git@github.com:tkers/friends-we-make-along-the-way.git",
+  "author": "Tijn Kersjes <tijn@divbyzero.nl>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^16.1.0"
+  }
+}
