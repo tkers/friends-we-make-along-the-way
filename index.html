@@ -24,7 +24,7 @@
       }
       body {
         font-family: 'Trade Winds';
-        text-align: center;
+        text-align: left;
         color: #3d2e29;
       }
       main {
@@ -49,6 +49,7 @@
         margin-bottom: 0px;
         padding-bottom: 0px;
         color: #1f1714;
+        text-align: center;
       }
 
       body h3 {
@@ -57,10 +58,48 @@
         margin-bottom: 20px;
         font-style: italic;
         /* color: #555; */
+        text-align: center;
       }
 
       body a {
         color: #ad1f1f;
+      }
+
+      strong {
+        color: #1f1714;
+        text-decoration: underline;
+        text-decoration-color: #ad1f1f;
+        text-decoration-thickness: 3px;
+      }
+
+      hr {
+        overflow: visible;
+        height: 1px;
+        padding: 0;
+        border: none;
+        border-top: 2px double #5c453d;
+        color: #5c453d;
+        text-align: center;
+        margin: 1cm 2cm;
+        /* background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        ); */
+      }
+      hr:after {
+        /* content: "☠"; */
+        /* content: '🜄'; */
+        /* content: '~'; */
+        content: '§';
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 1.1em;
+        padding: 0 0.25em;
+        background: white;
+        border-radius: 100%;
       }
     </style>
   </head>
@@ -69,12 +108,20 @@
     <main>
       <h1>Friends We Make Along the Way</h1>
       <h3>A nautical TTRPG for 1-4 players</h3>
-      Made for
-      <a href="https://itch.io/jam/one-page-rpg-jam-2022">#1prpgjam</a> 2022.
-      Licensed under the
-      <a href="http://opensource.org/licenses/MIT" target="_blank"
-        >MIT license</a
-      >.
+      <center>
+        Made for
+        <a href="https://itch.io/jam/one-page-rpg-jam-2022">#1prpgjam</a> 2022.
+        Licensed under the
+        <a href="http://opensource.org/licenses/MIT" target="_blank"
+          >MIT license</a
+        >.
+      </center>
+      <hr />
+      <strong>How to play:</strong> Start with a blank piece of paper, and make
+      sure all players have a pencil within reach.<br /><br />
+
+      <strong>Suits:</strong> Depending on which card you draw, your discovery
+      is...<br /><br />
     </main>
   </body>
 </html>
