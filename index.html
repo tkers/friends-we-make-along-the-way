@@ -61,8 +61,13 @@
         text-align: center;
       }
 
-      body a {
+      body a,
+      .red {
         color: #ad1f1f;
+      }
+
+      .black {
+        color: #1f1714;
       }
 
       strong {
@@ -101,6 +106,19 @@
         background: white;
         border-radius: 100%;
       }
+
+      table {
+        border-collapse: collapse;
+        color: #3d2e29;
+      }
+      table td:first-of-type {
+        text-align: right;
+        color: #ad1f1f;
+      }
+      table td {
+        padding: 1mm 2mm;
+        border-bottom: 0.5px solid #cfcbc9;
+      }
     </style>
   </head>
 
@@ -120,8 +138,83 @@
       <strong>How to play:</strong> Start with a blank piece of paper, and make
       sure all players have a pencil within reach.<br /><br />
 
-      <strong>Suits:</strong> Depending on which card you draw, your discovery
+      <strong>Suits</strong> Depending on which card you draw, your discovery
       is...<br /><br />
+
+      <table>
+        <tr>
+          <td><span class="black">♠</span></td>
+          <td>a natural phenomenon</td>
+        </tr>
+        <tr>
+          <td><span class="red">♦</span></td>
+          <td>a structure ashore</td>
+        </tr>
+        <tr>
+          <td><span class="black">♣</span></td>
+          <td>a creature of the sea</td>
+        </tr>
+        <tr>
+          <td><span class="red">♥</span></td>
+          <td>a ship passing by</td>
+        </tr>
+      </table>
+      <hr />
+
+      <table>
+        <tr>
+          <td>A</td>
+          <td>Something that scares you</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Something that calls you</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Something prosperous</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Something dangerous</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Something calming</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Something barely visible</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Something screaming for help</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Something hard to miss</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Something ancient</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Something you heard stories of</td>
+        </tr>
+        <tr>
+          <td>J</td>
+          <td>Something that reminds of home</td>
+        </tr>
+        <tr>
+          <td>Q</td>
+          <td>Something hostile</td>
+        </tr>
+        <tr>
+          <td>K</td>
+          <td>Something long forgotten</td>
+        </tr>
+      </table>
     </main>
   </body>
 </html>
