@@ -90,14 +90,14 @@ a,
 }
 a {
   text-decoration: none;
-  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ad1f1f');
+  /* background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ad1f1f');
   background-size: 100% 2px;
   background-position: 0 18px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 a:hover {
   color: #d92626;
-  background: none;
+  /* background: none; */
 }
 
 .black,
@@ -112,7 +112,6 @@ em {
 
 strong {
   background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=d92626');
-  padding: 0 2px;
   background-position: 0 17px;
   background-repeat: no-repeat;
   background-size: 100% 3px;
@@ -130,10 +129,10 @@ em {
 hr {
   overflow: visible;
   height: 2px;
-  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=1f1714');
+  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=756357');
   padding: 0;
   border: none;
-  color: #1f1714;
+  color: #756357;
   text-align: center;
   margin: 0.75cm 2cm;
 }
