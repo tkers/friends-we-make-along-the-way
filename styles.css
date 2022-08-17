@@ -26,7 +26,6 @@ body {
 }
 body,
 table {
-  /* font-family: 'Trade Winds'; */
   font-family: 'Leander';
   color: #756357;
   font-size: 14px;
@@ -43,7 +42,6 @@ main {
   margin: 0 auto;
   padding: 8mm 12mm;
   box-sizing: border-box;
-  /* border: 1px solid #ff0000; */
   background: url('paper.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -64,19 +62,18 @@ section {
   margin: auto;
 }
 
-body h1 {
+h1 {
   font-weight: 300;
   margin-bottom: 0px;
   color: #fff;
   padding: 2px 0;
   text-align: center;
-  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=222');
-  /* background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ad1f1f'); */
+  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=1f1714');
   background-position: 0 -4px;
   background-repeat: no-repeat;
 }
 
-body h3 {
+h3 {
   font-weight: 300;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -90,14 +87,9 @@ a,
 }
 a {
   text-decoration: none;
-  /* background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ad1f1f');
-  background-size: 100% 2px;
-  background-position: 0 18px;
-  background-repeat: no-repeat; */
 }
 a:hover {
   color: #d92626;
-  /* background: none; */
 }
 
 .black,
@@ -117,15 +109,6 @@ strong {
   background-size: 100% 3px;
 }
 
-em {
-  /* color: #ad1f1f; */
-  /* background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=1f1714'); */
-  /* padding: 2px 4px; */
-  /* background-position: 0 17px; */
-  /* background-repeat: no-repeat; */
-  /* background-size: 100% 3px; */
-}
-
 hr {
   overflow: visible;
   height: 2px;
@@ -137,9 +120,6 @@ hr {
   margin: 0.75cm 2cm;
 }
 hr:after {
-  /* content: '🜄'; */
-  /* content: '~'; */
-  /* content: '§'; */
   content: '✘';
   display: inline-block;
   position: relative;
