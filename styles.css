@@ -23,6 +23,7 @@ body {
 }
 body {
   text-align: justify;
+  background-color: #1c1817;
 }
 body,
 table {
@@ -42,10 +43,12 @@ main {
   margin: 0 auto;
   padding: 8mm 12mm;
   box-sizing: border-box;
+  background-color: #ffffff;
   background: url('paper.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 img {
@@ -175,4 +178,17 @@ table tr {
 }
 table tr:last-of-type {
   background: none;
+}
+
+@media screen and (max-width: 210mm) {
+  main {
+    max-width: 210mm;
+    width: auto;
+    height: auto;
+  }
+  h1 {
+    padding: 8px 16px;
+    margin-left: -8mm;
+    margin-right: -8mm;
+  }
 }
