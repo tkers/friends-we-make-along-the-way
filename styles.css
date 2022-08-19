@@ -48,6 +48,18 @@ main {
   background-size: cover;
 }
 
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  /* border: 1px solid #ff0000; */
+  opacity: 0.15;
+}
+
 h1,
 hr,
 p,
