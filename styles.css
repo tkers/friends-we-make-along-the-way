@@ -44,10 +44,8 @@ main {
   padding: 8mm 12mm;
   box-sizing: border-box;
   background-color: #ffffff;
-  background: url('paper.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('background.jpg');
+  background-size: 100% 100%;
   position: relative;
 }
 
