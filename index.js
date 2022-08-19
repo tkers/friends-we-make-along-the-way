@@ -19,7 +19,7 @@ async function generatePDF(fname, outname) {
 
 console.log('Generating...')
 
-generatePDF('index.html', 'output.pdf')
+generatePDF('index.html', 'Friends We Make Along the Way.pdf')
   .then(() => {
     console.log('PDF exported!')
   })
