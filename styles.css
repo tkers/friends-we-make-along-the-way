@@ -49,18 +49,6 @@ main {
   position: relative;
 }
 
-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  mix-blend-mode: multiply;
-  /* border: 1px solid #ff0000; */
-  opacity: 0.15;
-}
-
 h1,
 hr,
 p,
@@ -85,7 +73,7 @@ h1 {
   color: #fff;
   padding: 2px 0;
   margin: 16px auto 0;
-  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=1f1714');
+  background: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ad1f1f');
   background-position: 0 -4px;
   background-repeat: no-repeat;
 }
@@ -98,9 +86,8 @@ h3 {
 
 small {
   display: block;
-  /* text-transform: lowercase; */
-  /* font-variant: small-caps; */
   font-style: italic;
+  color: #624a37;
 }
 
 a,
