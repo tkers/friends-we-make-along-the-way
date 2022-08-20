@@ -170,6 +170,8 @@ table tr:last-of-type {
     max-width: 210mm;
     width: auto;
     height: auto;
+    background-size: cover;
+    background-position: bottom;
   }
   h1 {
     padding: 8px 16px;
