@@ -160,6 +160,7 @@ table {
 table td:first-of-type {
   text-align: center;
   color: #1f1714;
+  width: 0.5cm;
 }
 table td {
   padding: 1mm 2mm;
@@ -171,10 +172,13 @@ table tr {
   background-position: 0 bottom;
 }
 table tr:last-of-type {
-  background: none;
+  background-image: none;
 }
 
 @media screen and (max-width: 210mm) {
+  body {
+    text-align: left;
+  }
   main {
     max-width: 210mm;
     width: auto;
@@ -186,5 +190,14 @@ table tr:last-of-type {
     padding: 8px 16px;
     margin-left: -8mm;
     margin-right: -8mm;
+  }
+  section {
+    column-count: 1;
+  }
+  table tr {
+    background-position: -16px bottom;
+  }
+  table tr:last-of-type {
+    background-image: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=d1cbc7');
   }
 }
