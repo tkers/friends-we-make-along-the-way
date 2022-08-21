@@ -57,10 +57,16 @@ table {
 }
 
 section {
-  width: 48%;
+  width: 215px;
+  margin-right: 6mm;
   display: inline-block;
   vertical-align: top;
-  margin: auto;
+}
+section:last-of-type {
+  margin: 0;
+}
+section table {
+  margin: 0;
 }
 
 h1,
@@ -92,7 +98,7 @@ small {
 
 a,
 .red {
-  color: #ad1f1f;
+  color: #ad1f1f !important;
 }
 a {
   text-decoration: none;
