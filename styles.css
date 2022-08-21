@@ -201,3 +201,12 @@ table tr:last-of-type {
     background-image: url('https://s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=d1cbc7');
   }
 }
+
+/* Printer Friendly */
+/* body {
+  background-color: #ffffff;
+}
+main,
+em {
+  background-image: none !important;
+} */
