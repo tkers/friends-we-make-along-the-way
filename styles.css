@@ -117,6 +117,7 @@ em {
   background-position: center center;
   padding: 0 4px;
   margin: 0 -4px;
+  white-space: nowrap;
 }
 
 strong {
@@ -137,14 +138,17 @@ hr {
   margin: 0.6cm 2cm;
 }
 hr:after {
-  content: '⎈';
+  content: '•';
   display: inline-block;
   position: relative;
-  top: -9px;
+  top: -10px;
   font-size: 10px;
   padding: 0 8px;
   background: white;
   border-radius: 100%;
+}
+hr:first-of-type:after {
+  content: '⎈';
 }
 
 table {
